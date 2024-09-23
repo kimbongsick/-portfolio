@@ -1720,6 +1720,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3182132684778872853, guid: ecfac706142c9774da68c2b944ac3cf8, type: 3}
   m_PrefabInstance: {fileID: 1849587948}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &660589026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4255139846876595423, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
+  m_PrefabInstance: {fileID: 1345568799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &665634058 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3182132684778872853, guid: ecfac706142c9774da68c2b944ac3cf8, type: 3}
@@ -3994,6 +3999,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 397097566}
     m_Modifications:
+    - target: {fileID: 1760806897312377957, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
+      propertyPath: sp
+      value: 
+      objectReference: {fileID: 660589026}
+    - target: {fileID: 1760806897312377957, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4255139846876595423, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
       propertyPath: m_Name
       value: SeedCard
@@ -4081,7 +4094,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4255139846876595423, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2122981999}
   m_SourcePrefab: {fileID: 100100000, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
 --- !u!1001 &1348112527
 PrefabInstance:
@@ -6480,6 +6496,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8256392018600156664, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
   m_PrefabInstance: {fileID: 1345568799}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2122981999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660589026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3c898e12f1b4a49aa96a85628987d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardPrefab: {fileID: 4255139846876595423, guid: 5f342df3b046bc94cb9102559da826a9, type: 3}
 --- !u!1001 &2125269613
 PrefabInstance:
   m_ObjectHideFlags: 0
