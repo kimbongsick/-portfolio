@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class CardDrop : MonoBehaviour, IPointerEnterHandler, IDropHandler, IPointerExitHandler
 {
-    private Image image;
+    private Image image;   
     private RectTransform rect;
 
     private void Awake()
@@ -17,7 +17,7 @@ public class CardDrop : MonoBehaviour, IPointerEnterHandler, IDropHandler, IPoin
     public void OnPointerEnter(PointerEventData eventData)
     {
         // 아이템 슬롯의 색상을 노락색으로 변경
-        image.color = Color.yellow;
+        image.color = Color.yellow;       
     }
 
 
@@ -25,8 +25,8 @@ public class CardDrop : MonoBehaviour, IPointerEnterHandler, IDropHandler, IPoin
     // 마우스 포인터가 현재 아이템 슬록 영역을 빠져나갈 때 1회 호출
     public void OnPointerExit(PointerEventData eventData)
     {
-        // 아이템 슬롯의 색상을 하얀색으로 변경
-        image.color = Color.white;
+        // 아이템 슬롯의 색상을 불투명 하얀색으로 변경
+        image.color = new Color(255, 255, 255, 0.2f);
     }
 
 

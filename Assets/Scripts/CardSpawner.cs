@@ -7,11 +7,11 @@ public class CardSpawner : MonoBehaviour
     public GameObject CardPrefab;
     //private Transform canvas;
 
-    void Start()
+    /*void Start()
     {
         //canvas = FindObjectOfType<Canvas>().transform;
         Instantiate(CardPrefab, transform.position, Quaternion.identity, transform.parent);     // Instantiate를 부모 오브젝트에 할당
-    }
+    }*/
 
     void Update()
     {
