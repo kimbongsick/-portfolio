@@ -4743,6 +4743,10 @@ GameObject:
   - component: {fileID: 1542298755}
   - component: {fileID: 1542298754}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1542298757}
+>>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
 =======
   - component: {fileID: 1542298757}
 >>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
@@ -4807,7 +4811,11 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Text: 0
+=======
+  m_Text: 123
+>>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
 =======
   m_Text: 123
 >>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
@@ -4829,12 +4837,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: a1a01b6a4eda04c4da2c192c738a8c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1542298754}
   money: 100
 =======
+=======
+>>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -4856,6 +4867,9 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+<<<<<<< HEAD
+>>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
+=======
 >>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
 --- !u!1 &1556308588
 GameObject:
