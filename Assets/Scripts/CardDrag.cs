@@ -80,6 +80,9 @@ public class CardDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         // 알파값을 1로 설정하고, 광선 충돌처리가 되도록 한다
         canvasGroup.alpha = 1.0f;
         canvasGroup.blocksRaycasts = true;
+
+        Destroy(gameObject.GetComponent<CardDrag>());
+        Destroy(gameObject.GetComponent<CardSpawner>());
     }
 
 }
