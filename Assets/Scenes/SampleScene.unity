@@ -4742,14 +4742,7 @@ GameObject:
   - component: {fileID: 1542298753}
   - component: {fileID: 1542298755}
   - component: {fileID: 1542298754}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   - component: {fileID: 1542298757}
->>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
-=======
-  - component: {fileID: 1542298757}
->>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
   - component: {fileID: 1542298756}
   m_Layer: 5
   m_Name: Money
@@ -4810,15 +4803,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Text: 0
-=======
   m_Text: 123
->>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
-=======
-  m_Text: 123
->>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
 --- !u!222 &1542298755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4836,16 +4821,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1542298752}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: a1a01b6a4eda04c4da2c192c738a8c8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 1542298754}
-  money: 100
-=======
-=======
->>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -4867,10 +4842,6 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
-<<<<<<< HEAD
->>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
-=======
->>>>>>> 492107784645eb3ef5e990b69df43937e92b901e
 --- !u!1 &1556308588
 GameObject:
   m_ObjectHideFlags: 0
@@ -6982,7 +6953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3484245621020995589, guid: 3fe556ec08e1f20419ec81a24b053ace, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000015258789
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3484245621020995589, guid: 3fe556ec08e1f20419ec81a24b053ace, type: 3}
       propertyPath: m_AnchoredPosition.y
